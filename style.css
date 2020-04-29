@@ -1,0 +1,89 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+body {
+  background-color:#F9FBF2;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #0E1C36;
+  line-height: 25px;
+}
+
+h1, h2, h3 {
+  color: #0E1C36;
+  font-family :'Open Sans', sans-serif;
+  line-height: 25px;
+  font-size: 30px;
+}
+
+h1 {
+  line-height: 1.4;
+}
+
+#light-blue-btn {
+  background-color: #AFCBFF;
+  color: rgba(90, 90, 90, 0.5);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+#introduction {
+  padding: 20px;
+}
+
+#light-blue-btn:hover {
+  background-color: rgb(136, 175, 249);
+  text-decoration: none;
+  transition: 0.5s;
+  font-weight: 700;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline i {
+  font-size: 40px;
+  color: #76a6af;
+  padding: 1px 15px;
+}
+
+li {
+  display: inline-block;
+}
+
+
+.card {
+  background: white;
+  border: 10px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px 5px grey;
+  text-align: center;
+  padding: 40px;
+  margin: 30px 200px;
+}
+
+#image-circle {
+  border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
